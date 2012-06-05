@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_no_items">Loading&#8230;</string>
+    <string name="app_name">MyBus</string>
+    <string name="app_label">MyBus</string>
+    <string name="search_hint">Search bus stops</string>
+    <string name="addfav">Add to Favorites</string>
+    <string name="delfav">Delete from Favorites</string>
+    <string name="favorites">Favorites</string>
+    <string name="results">Search Results</string>
+    <string name="about">About</string>
+    <string name="departures">Bus Stop</string>
+</resources>

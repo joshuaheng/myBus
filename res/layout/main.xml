@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    
+    <ImageView
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/mainpage"
+        >
+	    
+	</ImageView>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        //empty space
+		<LinearLayout
+	    	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:layout_weight="1">
+	    
+		</LinearLayout>
+		//content section 1
+		<LinearLayout
+	    	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:orientation="horizontal"
+        	android:layout_weight="1"
+        	>
+	    	//search button
+
+	    	<LinearLayout
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:layout_weight="1"
+	    	    android:gravity="center"
+	    	    android:orientation="vertical" >
+
+	    	    <Button
+	    	        android:id="@+id/button1"
+	    	        android:layout_width="97dp"
+	    	        android:layout_height="81dp"
+	    	        android:layout_weight="0.36"
+	    	        android:background="@drawable/bus4"
+	    	        android:padding="10dp" />
+
+	    	    <TextView
+	    	        android:layout_width="fill_parent"
+	    	        android:layout_height="wrap_content"
+	    	        android:layout_marginBottom="20dip"
+	    	        android:gravity="center"
+	    	        android:padding="12dip"
+	    	        android:text="Search"
+	    	        android:textColor="#0000aa" />
+	    	</LinearLayout>
+
+	    	//favourite button
+
+	    	<LinearLayout
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:layout_weight="1"
+	    	    android:gravity="center"
+	    	    android:orientation="vertical" >
+
+	    	    <Button
+	    	        android:id="@+id/button2"
+	    	        android:layout_width="100dp"
+	    	        android:layout_height="84dp"
+	    	        android:layout_weight="0.37"
+	    	        android:background="@drawable/favourite"
+	    	        android:padding="10dp" />
+
+	    	    <TextView
+	    	        android:layout_width="fill_parent"
+	    	        android:layout_height="wrap_content"
+	    	        android:layout_marginBottom="20dip"
+	    	        android:gravity="center"
+	    	        android:padding="12dip"
+	    	        android:text="Favorites"
+	    	        android:textColor="#0000aa" />
+	    	</LinearLayout>
+
+		</LinearLayout>
+		//content section2 + about button
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+
+		    <Button
+		        android:id="@+id/button3"
+		        android:layout_width="98dp"
+		        android:layout_height="90dp"
+		        android:background="@drawable/about2"
+		        android:padding="10dp" />
+
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="20dip"
+		        android:gravity="center"
+		        android:padding="12dip"
+		        android:text="About"
+		        android:textColor="#0000aa" />
+		</LinearLayout>
+
+	</LinearLayout>
+</FrameLayout>    
+	
